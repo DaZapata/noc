@@ -1,0 +1,9 @@
+{"message":"http://localhost:3000/ is not ok. TypeError: fetch failed","level":"high","createdAd":"2024-04-26T17:25:20.051Z"}
+{"message":"http://localhost:3000/ is not ok. TypeError: fetch failed","level":"high","createdAd":"2024-04-26T17:25:25.007Z"}
+{"message":"http://localhost:3000/ is not ok. TypeError: fetch failed","level":"high","createdAd":"2024-04-26T17:25:30.014Z"}
+{"message":"http://localhost:3000/ is not ok. TypeError: fetch failed","level":"high","createdAd":"2024-04-26T17:25:35.004Z"}
+{"message":"Service https://google.com working","level":"low","createdAd":"2024-04-26T17:25:56.129Z"}
+{"message":"Service https://google.com working","level":"low","createdAd":"2024-04-26T17:26:00.584Z"}
+{"message":"Service https://google.com working","level":"low","createdAd":"2024-04-26T17:26:05.870Z"}
+{"message":"Service https://google.com working","level":"low","createdAd":"2024-04-26T17:26:10.634Z"}
+{"message":"Service https://google.com working","level":"low","createdAd":"2024-04-26T17:26:15.734Z"}
