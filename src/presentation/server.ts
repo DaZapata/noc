@@ -1,5 +1,6 @@
 import { envs } from "../config/plugins/envs.plugins";
 import { CheckService } from "../domain/use-cases/checks/check-service";
+import { SendEmailLogs } from "../domain/use-cases/logs/email/send-email-logs";
 import { FileSystemDatasource } from "../infrastructure/datasources/file-system.datasource";
 import { LogRepositoryImpl } from "../infrastructure/repositories/log.repository.implementation";
 import { CronService } from "./cron/cron-service";
@@ -8,6 +9,9 @@ import { EmailSevice } from "./email/email.service";
 const filesystemLogRepository = new LogRepositoryImpl(
     new FileSystemDatasource(),
 );
+
+//para el caso de uso
+//const emailService = new EmailSevice();
 
 export class Server {
 
@@ -19,10 +23,16 @@ export class Server {
         console.log('Server started...');
         
         // enviar el email
-        const emailService = new EmailSevice();
+        // para el nopm run dev
+        const emailService = new EmailSevice(filesystemLogRepository);
         emailService.sendEmailWithFileSystemLogs(
             ['davidzapata56@gmail.com', 'davidandreszapata@me.com']
         );
+
+        // //para el caso de uso
+        // new SendEmailLogs(
+        //     emailService, filesystemLogRepository
+        // ).execute(['davidzapata56@gmail.com', 'davidandreszapata@me.com'])
 
         // const emailService = new EmailSevice();
         // emailService.sendEmail({

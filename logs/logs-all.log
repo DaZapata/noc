@@ -13,3 +13,6 @@
 {"message":"Service https://google.com working","level":"low","createdAd":"2024-04-27T14:44:35.326Z","origin":"check-service.ts"}
 {"message":"Service https://google.com working","level":"low","createdAd":"2024-04-27T14:44:40.621Z","origin":"check-service.ts"}
 {"message":"Service https://google.com working","level":"low","createdAd":"2024-04-27T14:44:45.319Z","origin":"check-service.ts"}
+{"message":"Email Sent","level":"low","createdAd":"2024-04-27T16:32:49.515Z","origin":"email.service.ts"}
+{"message":"Log email sent","level":"low","createdAd":"2024-04-27T16:49:52.862Z","origin":"sent-email-logs.ts"}
+{"message":"Email Sent","level":"low","createdAd":"2024-04-27T16:52:04.744Z","origin":"email.service.ts"}
