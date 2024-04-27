@@ -20,16 +20,22 @@ export class Server {
         
         // enviar el email
         const emailService = new EmailSevice();
+        emailService.sendEmailWithFileSystemLogs(
+            ['davidzapata56@gmail.com', 'davidandreszapata@me.com']
+        );
 
-        emailService.sendEmail({
-            to: 'davidzapata56@gmail.com',
-            subject: 'Logs de sistema',
-            htmlBody: `
-                <h3>Logs de sistema - NOC</h3>
-                <p>Loren ipsum non veliant tampo druse tyu drinsns pewiun permua drenndo parfa deb fir ejhbhdek huhe fde </p>
-                <p>Ver logs adjuntos</p>
-            `
-        })
+        // const emailService = new EmailSevice();
+        // emailService.sendEmail({
+        //     to: 'davidzapata56@gmail.com',
+        //     subject: 'Logs',
+        //     htmlBody: `
+        //         <h3>Logs NOC</h3>
+        //         <p>ssdfsdfsd</p>
+        //         <p>Ver Logs</p>
+        //     `
+        // });
+        
+        
         // CronService.createJob(
         //     '*/5 * * * * *', // cada 3 segundos
         //     () => {
