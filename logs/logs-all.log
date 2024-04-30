@@ -16,3 +16,4 @@
 {"message":"Email Sent","level":"low","createdAd":"2024-04-27T16:32:49.515Z","origin":"email.service.ts"}
 {"message":"Log email sent","level":"low","createdAd":"2024-04-27T16:49:52.862Z","origin":"sent-email-logs.ts"}
 {"message":"Email Sent","level":"low","createdAd":"2024-04-27T16:52:04.744Z","origin":"email.service.ts"}
+{"message":"Email Sent","level":"low","createdAd":"2024-04-27T16:54:07.963Z","origin":"email.service.ts"}

@@ -24,10 +24,10 @@ export class Server {
         
         // enviar el email
         // para el nopm run dev
-        const emailService = new EmailSevice(filesystemLogRepository);
-        emailService.sendEmailWithFileSystemLogs(
-            ['davidzapata56@gmail.com', 'davidandreszapata@me.com']
-        );
+        // const emailService = new EmailSevice(filesystemLogRepository);
+        // emailService.sendEmailWithFileSystemLogs(
+        //     ['davidzapata56@gmail.com', 'davidandreszapata@me.com']
+        // );
 
         // //para el caso de uso
         // new SendEmailLogs(
